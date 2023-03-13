@@ -1,5 +1,7 @@
-.list-todo-container{
+@import url('https://fonts.googleapis.com/css2?family=Texturina:wght@100&display=swap');
 
+.list-todo-container{
+    
 }
 .add-todo{
     
@@ -10,6 +12,7 @@
 .list-todo-content{
     width: 400px;
     margin: 0 auto;
+    font-family: 'Texturina', serif;
 }
 
 .todo-child{
@@ -25,6 +28,10 @@
     font-size: 15px;
 }
 
-button{
+button:hover{
     cursor: pointer;
+    
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    transform: translateY(-2px)
 }
+

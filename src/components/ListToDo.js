@@ -6,8 +6,8 @@ import { toast } from "react-toastify";
 class ListTodo extends React.Component {
   state = {
     listTodos: [
-      { id: "todo1", title: "Doing homework" },
-      { id: "todo2", title: "Making videos" },
+      { id: "todo1", title: "Playing games" },
+      { id: "todo2", title: "Cleaning house" },
       { id: "todo3", title: "Code" },
     ],
     editTodo: {},
@@ -17,7 +17,7 @@ class ListTodo extends React.Component {
     this.setState({
       listTodos: [...this.state.listTodos, todo],
     });
-    toast.success("Mày ko thêm ăn cứt à :)))))");
+    toast.success("Thêm thành công!!");
   };
 
   handleDelete = (todo) => {

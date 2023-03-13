@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>TODO LIST</p>
+        <p className="NameList">TODO LIST</p>
 
         <ListTodo />
       </header>
@@ -25,6 +25,8 @@ function App() {
         pauseOnHover
         theme="light"
       />
+
+      
       {/* Same as */}
       <ToastContainer />
     </div>

@@ -1,10 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Texturina:wght@100&display=swap');
+
 .App {
   text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 20vmin;
   pointer-events: none;
+}
+.NameList {
+  font-size: larger;
+  font-family: 'Texturina', serif;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -24,9 +30,6 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
 @keyframes App-logo-spin {
   from {

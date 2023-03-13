@@ -1,5 +1,6 @@
 import React from "react";
 import { toast } from "react-toastify";
+import "./Addtodo.css"
 class AddTodo extends React.Component {
   state = {
     title: "",
@@ -33,6 +34,7 @@ class AddTodo extends React.Component {
       <div className="add-todo">
         <input
           type="text"
+          placeholder="What to do?"
           value={title}
           onChange={(event) => this.handleOnChangeTitle(event)}
         ></input>
